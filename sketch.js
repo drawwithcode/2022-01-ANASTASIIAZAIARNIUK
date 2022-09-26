@@ -15,4 +15,5 @@ function draw() {
   //inspired by Jakson Pollock
   translate (random(width), random(height)); 
   let mycolor = lerpColor(color("blue"), color("white"), frameCount / 100);
+  circle(10, 10, 200);
 }
